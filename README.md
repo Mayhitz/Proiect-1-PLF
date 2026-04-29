@@ -22,10 +22,3 @@ Acesta este un sistem expert simplu, scris în Prolog, conceput pentru a recoman
     ?- consult('cariere.pl').
     ```
 4.  **Interoghează** sistemul apelând predicatul `recomandare_cariera/3`. Va trebui să îi oferi lista ta de abilități și lista ta de interese.
-
-### Exemplu de utilizare
-
-Să presupunem că știi `python` și `c++`, și ești interesat de `tehnologie` și `rezolvare_probleme`. În consolă, vei rula următoarea comandă:
-
-```prolog
-?- recomandare_cariera([python, c++], [tehnologie, rezolvare_probleme], Recomandare).
